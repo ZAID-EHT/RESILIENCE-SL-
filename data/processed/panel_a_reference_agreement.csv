@@ -1,0 +1,4 @@
+cell_id,elevation_zone,valid_days,daily_corr,pentad_5d_corr,mean_diff_v3_minus_v2,days_ge_50mm_v2,days_ge_50mm_v3
+C1,Coastal / Colombo mouth,900,0.73,0.91,-0.27,13,18
+C2,Mid-basin / Hanwella,900,0.7,0.91,0.31,13,26
+C3,Upland / Kitulgala,900,0.62,0.83,3.17,15,36

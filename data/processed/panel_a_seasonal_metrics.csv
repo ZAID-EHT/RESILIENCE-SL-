@@ -1,0 +1,9 @@
+stratum,season,valid_days,lead_day,bias_v2,v2_ci_low,v2_ci_high,bias_v3_sat,v3_ci_low,v3_ci_high,claim_status
+S1,NE,180,2,0.2,-0.69,0.96,0.7,-0.36,1.68,reference-dependent
+S1,IM1,122,2,-5.5,-7.06,-1.0,-6.8,-9.34,0.29,reference-dependent
+S1,SW,162,2,5.1,-0.02,9.53,3.5,-6.23,6.99,reference-dependent
+S1,IM2,77,2,-5.7,-8.47,-1.19,-7.4,,,reference-dependent
+S0,IM1,46,2,-1.7,,,-3.2,,,reference-dependent
+S0,SW,153,2,8.9,4.99,11.32,6.5,2.79,9.55,supported
+S0,IM2,45,2,-3.3,,,-2.7,,,reference-dependent
+S2,SW,108,2,10.5,8.04,13.43,9.7,5.9,14.37,supported

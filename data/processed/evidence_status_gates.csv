@@ -1,0 +1,11 @@
+gate_id,description,pre_registered_threshold,achieved_value,status
+Gate G1,Reference Data Ingestion & Sanitization,"Complete CHIRPS v2.0 & v3.0 sat read, -9999 masked, 36 cell-days cross-checked","100% matched across 5,400 cell-days, 0 nodata leakage",PASSED
+Gate G2,Operational Forecast Completeness,Operational stratum S1 valid days >= 95%,"99.1% (541 / 546 valid days, 12 dropped missing dates)",PASSED
+Ordinary Rain Gate,General Forecast Bias Assessment,Requires >= 30 wet days (>= 1.0 mm) per stratum,S1: 312 wet days (v2.0) and 376 wet days (v3.0 sat),PASSED
+Heavy Rain Gate,Heavy Rainfall Skill Claims,Requires >= 20 independent event groups with rainfall >= 50 mm,S1: 8 independent event groups (< 20 gate threshold),FAILED (Refusal Triggered: Descriptive Only)
+Calibration Gate,Post-Processing Forecast Correction,Corrected forecast must beat raw ECMWF on held-out folds with 95% CI < 0,Climatology worse (+1.2 to +2.0 mm); Bias/Ridge inconclusive (CIs bridge 0),FAILED (Raw Forecast Retained)
+Amendment A1,Exclusion of CHIRPS v3.0 rnl,Strict disqualification of ERA5-based rnl reference,Disqualified; only v2.0 and v3.0 sat scored as co-primary,ENFORCED
+Amendment A2,HydroBASINS Reverse Traversal,Upstream traversal of NEXT_DOWN; SUB_AREA sum within 1% of UP_AREA,"-0.004% difference (2325.2 vs 2325.3 km²), 0 virtual connections",ENFORCED
+Amendment A3,Ditwah AOI Corridor Isolation,Imagery restricted to 236.6 km² AOI 02 Kelani Ganga corridor,97.8% inside verified catchment; DTM extrapolation strictly segregated,ENFORCED
+Amendment A4,Earth Engine Export Audit,Direct GeoTIFF audit for 36 cell-days following API rate limiting,100% agreement between batch export and raw pixel samples,ENFORCED
+Amendment A5,Small-Cluster Bootstrap Suppression,Suppress CI estimation when independent event clusters < 5,Returned as 'not estimable (<5 clusters)' to avoid spurious intervals,ENFORCED

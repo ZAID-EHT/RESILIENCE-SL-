@@ -1,0 +1,6 @@
+stratum,dry_gap_days,wet_days_v2,wet_days_v3,event_groups_v2,event_groups_v3,heavy_groups_ge_50mm_v2,heavy_groups_ge_50mm_v3,heavy_groups_ge_100mm,gate_status
+S1,3,312,376,25,13,8,8,1,REFUSAL TRIGGERED (<20 heavy groups)
+S1,2,312,376,38,21,11,10,1,REFUSAL TRIGGERED (<20 heavy groups)
+S1,5,312,376,16,9,6,5,1,REFUSAL TRIGGERED (<20 heavy groups)
+S0,3,142,168,11,7,4,5,0,REFUSAL TRIGGERED (<20 heavy groups)
+S2,3,84,92,15,9,5,6,1,REFUSAL TRIGGERED (<20 heavy groups)

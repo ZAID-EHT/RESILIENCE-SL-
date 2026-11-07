@@ -1,0 +1,5 @@
+spatial_unit,area_km2,share_percent,polygon_count,notes
+Inside Verified Kelani Catchment (HydroBASINS L8/L10),100.4,23.23,2942,Clipped to 15 reverse-traversed HydroBASINS Level 10 units (2325.2 km²)
+Adjacent Coastal Units (including Kelani river mouth),47.6,11.01,1380,Mouth unit (310.0 km²) and immediate coastal wetlands
+"Other Basins Outside Kelani (Kalu, Attanagalu, etc.)",284.24,65.76,8412,Falsely attributed to Kelani if raw unclipped bounding frame is used
+Full 2010 Map Frame Total,432.24,100.0,12734,"May 2010 World Bank/ESA flood map frame (79.82-80.16E, 6.50-7.44N)"

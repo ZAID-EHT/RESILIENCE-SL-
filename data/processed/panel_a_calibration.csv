@@ -1,0 +1,5 @@
+method,delta_mae_v2,v2_ci_low,v2_ci_high,delta_mae_v3_sat,v3_ci_low,v3_ci_high,gate_status,decision
+Day-of-year climatology (training only),1.2,-1.21,2.74,2.03,0.26,4.18,FAILED gate / worse,Rejected (significantly degrades accuracy)
+Seasonal additive bias per lead,-0.35,-1.59,0.54,0.43,-0.66,1.78,FAILED gate / inconclusive,"Rejected (95% CI crosses zero, reference conflicting)"
+Ridge regression (non-negative),-0.92,-2.57,0.42,0.05,-1.02,1.71,FAILED gate / inconclusive,"Rejected (95% CI crosses zero, reference conflicting)"
+Event gate (>=20 groups in train & test),,8.0,18.0,,5.0,9.0,FAILED gate (<20 groups),Raw forecast retained by protocol rule

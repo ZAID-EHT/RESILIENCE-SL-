@@ -1,0 +1,3 @@
+sensor,acquisition_utc,aoi,eo_observed_flooded_km2,flood_trace_km2,dtm_model_extrapolated_km2,not_analysed_pct,overlap_with_2010_pct,worldcover_tree_pct,worldcover_cropland_pct,worldcover_builtup_pct,quality_gate
+PlanetScope (Optical),2025-11-30 05:39:00,AOI 02 Kelani Ganga River (236.6 km²),33.77,0.0,67.6,2.7,52.0,66.0,13.0,10.0,PASSED (< 50% not-analysed)
+Maxar Legion (VHR Optical),2025-12-03 07:06:00,AOI 02 Kelani Ganga River (236.6 km²),6.88,1.23,28.0,30.1,18.5,71.0,11.0,8.0,PASSED (< 50% not-analysed)

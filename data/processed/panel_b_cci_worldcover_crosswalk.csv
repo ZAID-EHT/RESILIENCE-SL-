@@ -1,0 +1,5 @@
+cci_coarse_class,cci_reported_km2,worldcover_built_up_km2,worldcover_tree_cover_km2,worldcover_cropland_km2,worldcover_water_km2,pct_actual_built_up
+Urban areas (Class 190),21.7,9.77,8.03,2.17,1.73,45.0
+"Cropland strict (Classes 10,11,20)",6.3,0.44,4.16,1.51,0.19,7.0
+Cropland mosaic (Class 30),47.2,2.83,31.62,11.33,1.42,6.0
+Tree cover broadleaved (Classes 50-90),65.2,2.61,54.77,6.52,1.3,4.0

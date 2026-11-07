@@ -1,0 +1,6 @@
+landcover_class,worldcover_2021_10m_km2,cci_2010_300m_km2,sensitivity_range_km2,aggregation_diagnostic
+Built-up / Urban,5.9,21.7,5.9 - 21.7,CCI 300m urban cells contain on average 45% WorldCover built-up structures
+Cropland,21.9,6.3,6.3 - 53.5,Expands to 53.5 km² when mosaic class 30 is included; CCI cropland cells contain 3% WorldCover cropland
+Tree Cover / Forest,61.0,65.2,61.0 - 65.2,Pervasive wet-zone agroforestry: home gardens (gewathu) and rubber/coconut conceal floodwater beneath canopy
+Grassland / Shrubland,6.8,4.1,4.1 - 6.8,Wetland fringes and fallow paddy fields
+Permanent Water / Wetland,4.8,3.1,3.1 - 4.8,River channels and permanent water bodies
