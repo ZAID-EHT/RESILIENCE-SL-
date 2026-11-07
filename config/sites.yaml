@@ -1,0 +1,50 @@
+catchment:
+  name: "Kelani River Basin"
+  country: "Sri Lanka"
+  hydrobasins_version: "v1c Asia"
+  level8_outlet:
+    hybas_id: 4080049050
+    up_area_km2: 2325.3
+    geodesic_area_km2: 2315.4
+  level10_reverse_traversal:
+    polygons_count: 15
+    sum_sub_area_km2: 2325.2
+    diff_vs_up_area_percent: -0.004
+    virtual_connections_count: 0
+    endo_virtual_id: 2
+    copernicus_river_overlap_percent: 98.5
+    colombo_district_overlap_km2: 454.0
+  coastal_mouth_unit:
+    area_km2: 310.0
+    adjacent_floodwater_km2: 47.60
+
+pilot_cells:
+  C1:
+    name: "Coastal / Colombo mouth"
+    latitude: 6.924429
+    longitude: 79.90725
+    elevation_zone: "Coastal"
+    description: "Downstream lowlands near Colombo urban boundary"
+    in_2010_flood_frame: true
+  C2:
+    name: "Mid-basin / Hanwella"
+    latitude: 6.924429
+    longitude: 80.05902
+    elevation_zone: "Mid-basin"
+    description: "Hanwella hydrological key gauging corridor"
+    in_2010_flood_frame: true
+  C3:
+    name: "Upland / Kitulgala"
+    latitude: 6.9947276
+    longitude: 80.35442
+    elevation_zone: "Upland"
+    description: "Kitulgala headwater catchment (east of 2010 flood map frame 80.156E)"
+    in_2010_flood_frame: false
+
+flood_map_2010_frame:
+  min_lon: 79.82
+  max_lon: 80.156
+  min_lat: 6.50
+  max_lat: 7.44
+  full_frame_floodwater_km2: 432.24
+  clipped_kelani_floodwater_km2: 100.40

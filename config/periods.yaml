@@ -1,0 +1,68 @@
+window:
+  start_date: "2024-03-14"
+  end_date: "2026-08-30"
+  total_scheduled_requests: 2700
+  successful_requests: 2688
+  missing_requests: 12
+  missing_dates:
+    - "2025-08-05"
+    - "2025-08-06"
+    - "2025-08-08"
+    - "2025-08-09"
+  missing_dates_handling: "dropped_never_zero_filled"
+
+leads:
+  lead1:
+    lead_day: 1
+    hours_from_init: "24-48"
+  lead2:
+    lead_day: 2
+    hours_from_init: "48-72"
+  lead3:
+    lead_day: 3
+    hours_from_init: "72-96"
+
+strata:
+  S0:
+    name: "Retrospective / 49r1 Hindcast"
+    start_utc: "2024-03-14T00:00:00Z"
+    end_utc: "2024-11-12T00:00:00Z"
+    description: "Model cycle 49r1 hindcast runs prior to operational commissioning"
+  S1:
+    name: "Operational Cycle 49r1"
+    start_utc: "2024-11-12T06:00:00Z"
+    first_00utc_run: "2024-11-13T00:00:00Z"
+    end_utc: "2026-05-12T00:00:00Z"
+    description: "Operational cycle 49r1 era"
+  S2:
+    name: "Operational Cycle 50r1"
+    start_utc: "2026-05-12T06:00:00Z"
+    first_00utc_run: "2026-05-13T00:00:00Z"
+    end_utc: "2026-08-30T00:00:00Z"
+    description: "Operational cycle 50r1 era"
+
+seasons:
+  NE:
+    name: "Northeast Monsoon"
+    months: [12, 1, 2]
+  IM1:
+    name: "First Inter-Monsoon"
+    months: [3, 4]
+  SW:
+    name: "Southwest Monsoon"
+    months: [5, 6, 7, 8, 9]
+  IM2:
+    name: "Second Inter-Monsoon"
+    months: [10, 11]
+
+gates:
+  ordinary_wet_day_threshold_mm: 1.0
+  min_ordinary_wet_days: 30
+  heavy_rain_threshold_50mm: 50.0
+  heavy_rain_threshold_100mm: 100.0
+  min_heavy_event_groups: 20
+  event_group_dry_gap_days: 3
+  sensitivity_dry_gaps: [2, 5]
+  amendment_a5_min_clusters: 5
+  bootstrap_replications: 2000
+  bootstrap_alpha: 0.05
