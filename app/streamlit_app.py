@@ -69,8 +69,7 @@ def load_processed_table(filename: str) -> Optional[pd.DataFrame]:
 
 
 # Sidebar Navigation
-st.sidebar.image("https://raw.githubusercontent.com/ZAID-EHT/RESILIENCE-SL-/main/docs/assets/logo.png" if False else "🌊", width=50)
-st.sidebar.title("RESILIENCE SL")
+st.sidebar.markdown("## 🌊 RESILIENCE SL")
 st.sidebar.caption("Kelani Catchment Research Workbench (Phase 2)")
 
 nav_selection = st.sidebar.radio(
