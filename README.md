@@ -6,7 +6,7 @@
 [![Reproducibility: Bit--for--Bit](https://img.shields.io/badge/reproducibility-deterministic%20SHA--256-success.svg)]()
 [![ModelX 2.0](https://img.shields.io/badge/Hackathon-ModelX%202.0-orange.svg)](https://modelx2.pages.dev/)
 
-> **⚠️ MANDATORY RESEARCH PROTOCOL DISCLAIMER:**  
+
 > **Research prototype. Not an official warning or a live flood-risk map. Areas outside historical mapped footprints are not necessarily safe.**
 
 ---
