@@ -30,7 +30,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host "`n[Step 3/3] Verifying data integrity..." -ForegroundColor Yellow
-& $PYTHON -c "from rsl.checksums import sha256_file; from pathlib import Path; p = Path('data/processed/panel_a_stratum_metrics.csv'); print(f'Verified panel_a_stratum_metrics.csv SHA-256: {sha256_file(p)}')"
+& $PYTHON -c "import sys; sys.path.insert(0, 'src'); from rsl.checksums import sha256_file; from pathlib import Path; p = Path('data/processed/panel_a_stratum_metrics.csv'); print(f'Verified panel_a_stratum_metrics.csv SHA-256: {sha256_file(p)}')"
 
 Write-Host "`n==========================================================" -ForegroundColor Green
 Write-Host "  SUCCESS: All pipeline steps and test verifications passed!" -ForegroundColor Green
